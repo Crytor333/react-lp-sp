@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+#home{
+  position: relative;
+}
+
+.page-top{
+  writing-mode:vertical-rl
+}
+#blurCtrl{
+  backdrop-filter: blur(5px);
+}
+.detail1{
+  left:calc((100% - 225px)/2);
+}
+.chat{
+  left: calc((100% - 175px)/2);
+}
+.lamp{
+  left: calc((100% - 114px)/2);
+}
+.cent{
+    left: calc((100% - 7px)/2);
+}
+
+.circle {
+  width: 615px;
+  height: 750px;
+  object-fit: none;
+  object-position: 0px 0%;
+  position: absolute;
+  top: 200px;
+  right: 0;
+}
